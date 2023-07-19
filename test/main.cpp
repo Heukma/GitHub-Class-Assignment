@@ -2,9 +2,7 @@
 #include <cmath>
 #include <string>
 #include <algorithm>
-#include <vector>
 #include <ctime>
-#include <set>
 
 using namespace std;
 
@@ -15,12 +13,14 @@ int main(){
     for(int i =3;i<11;i++){
         n[i] = n[i-1]+n[i-2]+n[i-3];
     }
+
     cin >> T;
+
     for(int i=0;i<T;i++){
         int temp;
         cin >> temp;
         cout << n[temp-1]<<'\n';
     }
     return 0;
-    
+
 }
