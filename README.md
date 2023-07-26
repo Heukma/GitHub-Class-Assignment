@@ -1,4 +1,5 @@
 # GitHub-Class-Assignment2
+
 [![GitHub star chart](https://img.shields.io/github/stars/Heukma/GitHub-Class-Assignment1?style=social)](https://star-history.com/#Heukma/GitHub-Class-Assignment1)
 
 ![Cover Picture](https://miro.medium.com/v2/resize:fit:640/format:webp/0*cesFJY5JFpI0Rl4v.jpg)
