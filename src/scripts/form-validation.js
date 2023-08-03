@@ -12,8 +12,9 @@
           event.preventDefault()
           event.stopPropagation()
         }
-  
+        else window.alert("안드로메다폰을 구매하였습니다!")
         form.classList.add('was-validated')
+
       }, false)
     })
   })()
