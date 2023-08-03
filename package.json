@@ -1,0 +1,14 @@
+{
+  "name": "shopping-app",
+  "version": "1.0.0",
+  "description": "Github class assignment 3: shopping app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
