@@ -2,7 +2,8 @@
 
 [![GitHub star chart](https://img.shields.io/github/stars/Heukma/GitHub-Class-Assignment1?style=social)](https://star-history.com/#Heukma/GitHub-Class-Assignment1)
 
-![Cover Picture](https://miro.medium.com/v2/resize:fit:640/format:webp/0*cesFJY5JFpI0Rl4v.jpg)
+![readmeImage](https://github.com/Heukma/GitHub-Class-Assignment/assets/50437138/ccb6bc12-fb48-4015-96d0-0746e04d2e64)
+
 ## 설명
 Assignment 3 - 웹앱, 컨테이너, 패키지
 
