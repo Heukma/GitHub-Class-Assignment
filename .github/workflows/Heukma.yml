@@ -1,0 +1,30 @@
+name: Heukma git actions
+on:
+   workflow_dispatch:
+
+            
+jobs:
+   Heukma-Action:
+      runs-on: ubuntu-latest
+      steps:         
+         - name: Greeting
+           run: |
+              echo "▂╱▔▔▔▔▔▔▔▔▔▔▔▔▔╲"
+              echo "╲┈┏┓┏┳━┳┓┏┓┏━━┓▕"
+              echo "▕▏┃┗┛┃┏┛┃┃┃┃┏┓┃▕"
+              echo "▕▏┃┏┓┃┗┓┃┃┃┃┗┛┃▕"
+              echo "▕▏┃┃┃┃┏┛┃┃┃┃┛┗┃▕"
+              echo "▕▏┃┃┃┃┗┓┗┫┗┫╰╯┃▕"
+              echo "▕▏┗┛┗┻━┻━┻━┻━━┛▕"
+              echo "┈╲▂▂▂▂▂▂▂▂▂▂▂▂▂╱"
+              
+         - name: Checkout
+           uses: actions/checkout@v3
+           with:
+              sparse-checkout: .
+              
+         - name: List all long
+           run: ls -al
+           
+         - name: Read File
+           run: cat README.md
