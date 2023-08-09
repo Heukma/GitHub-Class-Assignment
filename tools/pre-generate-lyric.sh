@@ -2,6 +2,9 @@
 
 LYRICS_FILE=Youth-lyrics.md
 
+# git init
+git init
+
 # Make a lyrics file
 touch Youth-lyrics.md
 
