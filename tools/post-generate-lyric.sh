@@ -2,6 +2,12 @@
 
 LYRICS_FILE=Youth-lyrics.md
 
+# git init
+git init
+
+# Make a lyrics file
+touch Youth-lyrics.md
+
 #add Lyrics 
 echo -e "나는 그대의\n" >> $LYRICS_FILE
 git add $LYRICS_FILE && git commit -m "Adding 9th line to the file"
