@@ -1,0 +1,37 @@
+name: Executing bash shell script
+
+on:
+   workflow_dispatch:
+      inputs:
+         myName:
+            description: "Your name?"
+            required: true
+            default: ''
+
+jobs:
+   bash-script-execute:
+      runs-on: ubuntu-latest
+      steps:
+         - name: Checkout files
+           uses: actions/checkout@v2
+           with:
+              ref: ${{ github.head_ref }}
+
+         - name: Run beautysh to beautify bash shell
+           uses: illvart/beautysh-action@latest
+           with:
+             # Pass beautysh options in args, for example:
+             args: '*.sh --indent-size 4'
+
+         - name: Start executing bash shell script
+           run: |
+              echo "Hello, ${{ github.event.inputs.myName }}."
+              ls -al
+              chmod 777 ShellScriptExample.sh
+              bash ShellScriptExample.sh
+              
+         - name: Check shell script file
+           run: cat ShellScriptExample.sh
+         
+         - name: Check lyrics.md file
+           run: cat Youth-lyrics.md
