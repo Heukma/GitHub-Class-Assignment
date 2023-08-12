@@ -16,3 +16,7 @@
 ### 필요한 테크 스택:
 - JavaScript
 - Translate API (Google tanslate AI, DeepL Translate API, Papago Text Translation API)
+
+### 참고 사항
+- [Translate Readme Action](https://github.com/marketplace/actions/translate-readme-action)
+- [Issues Translator](https://github.com/marketplace/actions/issues-translator)
