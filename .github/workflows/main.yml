@@ -1,0 +1,14 @@
+name: Automatic-Tistory-Uploader
+on:
+   workflow_dispatch:
+            
+jobs:
+   Heukma-Action:
+      runs-on: ubuntu-latest
+      steps:       
+         - name: Uploader
+           uses: binary-0/Automatic-Tistory-Uploader@Read-Readme.md
+           with:
+              Accesstoken: "${{ secrets.BLOG_ACCESS_TOKEN }}"
+              BlogName: "nmincho"
+              GithubToken: "${{ secrets.GITHUB_TOKEN }}"
